@@ -5,7 +5,7 @@ services:
     container_name: smart_mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root1234
+      MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: smart_inventory
     ports:
       - "3307:3306"
